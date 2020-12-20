@@ -1,0 +1,95 @@
+
+body {
+  font-family: "Varela Round";
+  margin: 0;
+  height: 50rem;
+  background-color: #222831;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #bedcfa ;
+}
+
+header h2 {
+  color: rgb(106, 190, 205);
+}
+
+header p {
+  color: #c8c8c8;
+}
+
+.heading {
+  width: 35%;
+  text-align: center;
+  font-family: "Varela Round";
+}
+
+.verical-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 40rem;
+  top: 4rem;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  position: relative;
+  bottom: 27rem;
+  height: 40rem;
+  background-color: transparent;
+  justify-content: space-around;
+}
+
+.verical-container div, .horizontal-container div {
+  padding: 15px;
+  margin: 10px;
+  width: 22.5%;
+  height: 45%;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #393e46;
+
+}
+
+.day h2, .day ul {
+  color: #bedcfa  ;
+}
+
+.day h3 {
+  color: rgb(106, 190, 205);
+}
+
+.day-4 {
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 500px;
+}
+
+footer p {
+  color: #c8c8c8;
+}
+
+.social-icon {
+  margin: 1rem 1.5rem;
+  color: rgb(106, 190, 205);;
+}
