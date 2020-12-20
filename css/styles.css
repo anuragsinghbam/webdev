@@ -1,3 +1,15 @@
+/* @media(max-width: 480px) {
+  .verical-container, .horizontal-container {
+    display: block;
+    color: red;
+  }
+
+  header {
+    display: block;
+    color: red;
+  }
+} */
+
 
 body {
   font-family: "Varela Round";
@@ -92,4 +104,67 @@ footer p {
 .social-icon {
   margin: 1rem 1.5rem;
   color: rgb(106, 190, 205);;
+}
+
+
+@media (max-width: 768px) {
+
+  header {
+    position: static;
+  }
+
+  .heading {
+    width: 60%;
+  }
+
+  .horizontal-container  {
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .verical-container {
+    position: static;
+    margin-bottom: 2rem;
+  }
+
+  .verical-container div {
+    width: 70%;
+  }
+
+  .horizontal-container div {
+    width: 70%;
+
+  }
+
+  footer {
+    position: static;
+  }
+
+  .social-icon {
+    margin-top: 3rem;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .horizontal-container {
+    justify-content: space-between;
+  }
+
+  .horizontal-container div{
+    width: 26%;
+    height: 50%;
+  }
+
+
+  .verical-container div {
+    width: 26%;
+    height: 50%;
+  }
+
+  .heading {
+    width: 55%;
+  }
 }
